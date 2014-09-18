@@ -4,6 +4,9 @@ var path = require('path'); // Built-in path module provides filesystem path-rel
 var mime = require('mime'); // Add-on mime module provides ability to derive a MIME type based on a filename extension
 var cach = { }; // Cache object is where the contents of cached files are stored
 
+var chatServer = require('./lib/chat_server');
+chatServer.listen(server); //uses the already defined HTTP server and shares the same TCP/IP port and starts the socket.IO server
+
 // Three helper functions used for serving static HTTP files.
 
 // The first handles the sending of 404 errors when a file is requested but does not exist.

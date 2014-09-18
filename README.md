@@ -41,3 +41,12 @@ Type `npm install` or `sudo npm install` depending on your system settings.
 Once you have finished these first simple steps, you can start typing the code for your application.
 
 In this example we start by defining the **server logic first** and create *server.js* in our root directory.
+
+---
+
+**To connect the server side to the client side we will use socket.io.**
+
+Read more about socket.io and websockets at:
+- http://socket.io/
+- http://en.wikipedia.org/wiki/Socket.IO
+- http://en.wikipedia.org/wiki/WebSocket

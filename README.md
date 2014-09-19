@@ -1,4 +1,4 @@
-#This is a multiroom chatroom example using node.
+#This is a multiroom chatroom example/demo using node.
 **All code is commented and explained as best possible.**
 
 ---
@@ -42,11 +42,29 @@ Once you have finished these first simple steps, you can start typing the code f
 
 In this example we start by defining the **server logic first** and create *server.js* in our root directory.
 
----
+Once we have created *server.js*, we then create *index.html* and *styles.css*, our static files.
 
-**To connect the server side to the client side we will use socket.io.**
+Having done that we focus our attention to our chatroom logic on the server-side and write *chat_server.js* using **socket.io**.
+
+---
 
 Read more about socket.io and websockets at:
 - http://socket.io/
 - http://en.wikipedia.org/wiki/Socket.IO
-- http://en.wikipedia.org/wiki/WebSocket
+
+---
+
+####Note:
+**To connect the server side to the client side we will use socket.io.**
+
+---
+
+Our chat application will need to handle the following types of tasks:
+- Guest name assignment
+- Room-change requests
+- Name-change requests
+- Sending chat messages
+- Room creation
+- User disconnection
+
+To handle these, we will create helper functions in our *chat_server.js* file.

@@ -68,3 +68,14 @@ Our chat application will need to handle the following types of tasks:
 - User disconnection
 
 To handle these, we will create helper functions in our *chat_server.js* file.
+
+---
+
+> In web applications there are, from a security perspective, two types of data.
+
+There's *trusted* text data and there's *untrusted* text data. The first is supplied by the web application and the second by the users of
+the application. Text data from users is considered untrusted because
+malicious users may intentionally submit text data that includes JavaScript logic in *script* tags.
+This method of highjacking a web application is called **cross-site scripting (XXS) attack**.
+The chat application will sanitize this sort of untrusted text by transforming special characters into HTML entities and
+displaying them rather than interpreting them.

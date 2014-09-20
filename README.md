@@ -38,13 +38,13 @@ Fill-in your *package.json* file with the following:
 
 Type `npm install` or `sudo npm install` depending on your system settings.
 
-Once you have finished these first simple steps, you can start typing the code for your application.
+> Once you have finished these first simple steps, you can start typing the code for your application.
 
 In this example we start by defining the **server logic first** and create *server.js* in our root directory.
 
-Once we have created *server.js*, we then create *index.html* and *styles.css*, our static files.
+> Once we have created *server.js*, we then create *index.html* and *styles.css*, our static files.
 
-Having done that we focus our attention to our chatroom logic on the server-side and write *chat_server.js* using **socket.io**.
+> Having done that we focus our attention to our chatroom logic on the server-side and write *chat_server.js* using **socket.io**.
 
 ---
 

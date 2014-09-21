@@ -34,7 +34,7 @@ Fill-in your *package.json* file with the following:
     }
   }`
 
-#####Note: If you know before-hand exactly all of the dependencies and dev-dependencies you will be using, this a faster way to set up your application, because it allows you to install all of your dependencies with one command in the terminal.
+#####Note: If you know before-hand exactly all of the dependencies and devDependencies you will be using, this is a faster way to set up your application, because it allows you to install all of your dependencies with one command in the terminal.
 
 Type `npm install` or `sudo npm install` depending on your system settings.
 
